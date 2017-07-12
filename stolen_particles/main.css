@@ -4,24 +4,9 @@ body{
 	font-size:0;
 }
 canvas{
-	background: black;
+	/*background: black;*/
 	width: 100vw;
 	height: 100vh;
-}
-input{
-	width: 250px;
-	height: 40px;
-	line-height: 40px;
-	position: absolute;
-	bottom: 35px;
-	left: calc(50% - 125px);
-	background: none;
-	color: white;
-	font-size: 30px;
-	font-family: arial;
-	text-align: center;
-	border: 1px solid white;
-	background: rgba(255,255,255,0.2);
 }
 p{
   position: fixed;
