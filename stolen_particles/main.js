@@ -33,8 +33,8 @@ function Particle(x, y) {
         y: y
     };
     this.r = Math.random() * 5 + 2;
-    this.vx = (Math.random() - 0.5) * 20;
-    this.vy = (Math.random() - 0.5) * 20;
+    this.vx = (Math.random() - 0.5) * 2;
+    this.vy = (Math.random() - 0.5) * 2;
     this.accX = 0;
     this.accY = 0;
     this.friction = Math.random() * 0.05 + 0.94;
