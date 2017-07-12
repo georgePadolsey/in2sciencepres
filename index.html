@@ -5,6 +5,12 @@
  	<title></title>
  </head>
  <body>
- 	Bob is awesome
+ 	Bob is awesome<span id="dots"></span>
+
+ 	<script>
+ 		setInterval(function() {
+ 			document.getElementById('dots').innerHTML += '.';
+ 		}, 1000);
+ 	</script>
  </body>
  </html>
