@@ -8,7 +8,7 @@ var canvas = document.querySelector("#scene"),
     },
     radius = 1;
 
-var colors = ["#468966", "#FFF0A5", "#FFB03B", "#B64926", "#8E2800"];
+var colors = ["#ffeb3b", "#fffde7", "#fff9c4", "#fff59d", "#fff176", "#ffee58", "#ffeb3b", "#fdd835", "#fff", "#fbc02d"];
 
 
 
