@@ -74,7 +74,7 @@ function drawLabels({canvas, ctx, curMicroscopeX}) {
 	var microscopeLabel = "Platinum-Iridium wire",
 		microscopeLabelWidth = ctx.measureText(metalLabel).width;
 
-	ctx.fillStyle = 'black';
+	ctx.fillStyle = 'white';
 
 	ctx.fillText(microscopeLabel, curMicroscopeX <= w*.5 ? curMicroscopeX + w*.05 : curMicroscopeX - w*.05 - microscopeLabelWidth, h * 0.2);
 
