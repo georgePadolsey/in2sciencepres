@@ -10,6 +10,9 @@ var canvas = document.querySelector("#scene"),
 
 var colors = ["#468966", "#FFF0A5", "#FFB03B", "#B64926", "#8E2800"];
 
+
+
+console.log('UPDATED')
 // var copy = document.querySelector("#copy");
 
 var ww = canvas.width = window.innerWidth;
@@ -45,8 +48,8 @@ function Particle(x, y) {
 Particle.prototype.render = function() {
 
 
-    this.accX = (this.dest.x - this.x) / 500;
-    this.accY = (this.dest.y - this.y) / 500;
+    this.accX = (this.dest.x - this.x) / 300;
+    this.accY = (this.dest.y - this.y) / 300;
     this.vx += this.accX;
     this.vy += this.accY;
     this.vx *= this.friction;
