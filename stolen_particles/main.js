@@ -32,7 +32,7 @@ function Particle(x, y) {
         x: x,
         y: y
     };
-    this.r = Math.random() * 5 + 2;
+    this.r = Math.random() * 3 + 2;
     this.vx = (Math.random() - 0.5) * 2;
     this.vy = (Math.random() - 0.5) * 2;
     this.accX = 0;
@@ -45,8 +45,8 @@ function Particle(x, y) {
 Particle.prototype.render = function() {
 
 
-    this.accX = (this.dest.x - this.x) / 1000;
-    this.accY = (this.dest.y - this.y) / 1000;
+    this.accX = (this.dest.x - this.x) / 500;
+    this.accY = (this.dest.y - this.y) / 500;
     this.vx += this.accX;
     this.vy += this.accY;
     this.vx *= this.friction;
